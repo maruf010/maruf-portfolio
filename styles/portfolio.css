@@ -1,0 +1,79 @@
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right; 
+}
+/* shared styles */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+/* shared button */
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+
+}
+/* nav styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 38px 0 230px ;
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greatings{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-discription{
+    color: #757575;
+    font-size: 18px;
+}
+.hardy-pic{
+    height: 676px;
+}
