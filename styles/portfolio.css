@@ -145,12 +145,12 @@ nav li a{
 }
 .skill-container{
     display: flex;
-    margin: 30px 200px 20px 200px;
+    margin: 30px 150px 20px 150px;
 }
 .skill{
     border-radius: 8px;
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.11);
-    margin: 24px;
+    margin: 20px;
     padding: 30px;
 }
 .skills-discription{
