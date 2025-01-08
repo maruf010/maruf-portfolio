@@ -12,6 +12,7 @@
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right; 
+    background-color: #FFF8F3;
 }
 /* shared styles */
 .text-primary{
@@ -38,6 +39,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 200px;
+    
 }
 
 nav ul{
@@ -153,4 +155,77 @@ nav li a{
 }
 .skills-discription{
     color:#757575;
+}
+
+/* Resume styles */
+.resume-container{
+    display: flex;
+    margin: 20px 230px;
+    gap: 70px;
+    padding: 20px;
+}
+.column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience h4 {
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.experience h5{
+    color:#474747;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.experience p {
+    font-size: 16px;
+    color: #757575;
+}
+.resume .btn-center{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+
+}
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"], input[type="email"]{
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    color: #FD6E0A;
+
+}
+footer textarea{
+    border: none;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    color: #FD6E0A;
+
+}
+
+footer .note{
+    margin-bottom: 30px;
+}
+
+footer .icon a{
+    margin: 10px;
 }
